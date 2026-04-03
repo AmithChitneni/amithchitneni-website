@@ -926,6 +926,11 @@
         text-align: center;
       }
 
+      .experience-divider-label {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       .experience-company {
         text-align: center;
       }
@@ -948,6 +953,22 @@
         text-align: center;
       }
 
+      .experience-layout {
+        flex-direction: column;
+      }
+
+      .experience-layout .experience-column:nth-child(1) {
+        order: 1;
+      }
+
+      .experience-layout .experience-column:nth-child(2) {
+        order: 2;
+      }
+
+      .experience-card {
+        text-align: center;
+      }
+
       #projects {
         padding: 3rem 0;
       }
@@ -958,7 +979,12 @@
       }
 
       .projects-label {
-        text-align: left;
+        text-align: center;
+      }
+
+      .projects-divider-label {
+        margin-left: auto;
+        margin-right: auto;
       }
 
       .project-title {
